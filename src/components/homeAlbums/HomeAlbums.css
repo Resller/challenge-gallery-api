@@ -1,0 +1,16 @@
+.area-albums {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px 20px;
+}
+.albums{
+    padding: 10px;
+    font-size: 18px;
+    border: solid 2px #333;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.albums:hover{
+    background-color: rgba(220, 220, 220, 0.5);
+}
